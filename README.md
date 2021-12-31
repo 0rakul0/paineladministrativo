@@ -1,6 +1,8 @@
 # painel-administrativo
  Admin Dashboard using Html CSS & Javascript
 
+ https://0rakul0.github.io/painel-administrativo/
+
 # checklist
     menu 
         lateral ok
