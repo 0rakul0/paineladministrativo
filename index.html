@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel Administrativo usamdo Html CSS & Javascript</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navigation">
+      <ul>
+        <li>
+          <a href="index.html">
+            <span class="icon">
+              <ion-icon name="skull-outline"></ion-icon>
+            </span>
+            <span class="title" id="nameUser">NOME USER</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <span class="icon">
+              <ion-icon name="home-outline"></ion-icon>
+            </span>
+            <span class="title">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <span class="icon">
+              <ion-icon name="person-outline"></ion-icon>
+            </span>
+            <span class="title">Perfil</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <span class="icon">
+              <ion-icon name="chatbubble-outline"></ion-icon>
+            </span>
+            <span class="title">Mensagem</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <span class="icon">
+              <ion-icon name="help-outline"></ion-icon>
+            </span>
+            <span class="title">Ajuda</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <span class="icon">
+              <ion-icon name="settings-outline"></ion-icon>
+            </span>
+            <span class="title">configurações</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <span class="icon">
+              <ion-icon name="log-out-outline"></ion-icon>
+            </span>
+            <span class="title">sair</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- bloco de menu de cima-->
+  <main>
+    <section class="topbar">
+      <div class="toggle">
+        <ion-icon name="menu-outline"></ion-icon>
+      </div>
+      <div class="search">
+        <label for="search">
+          <ion-icon name="search-outline"></ion-icon>
+          <input type="search" id="search" placeholder="Pesquisar" />
+        </label>
+      </div>
+      <div class="profile">
+        <img src="img/profile1.jpg" alt="profile" />
+      </div>
+    </section>
+  </main>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
