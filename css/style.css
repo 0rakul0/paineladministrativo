@@ -255,7 +255,7 @@ main .topbar .profile img{
   width: 100%;
   padding: 20px;
   border-radius: 10px;
-  background: var(--cinza);
+  background: var(--branco);
   box-shadow: 0 7px 25px rgba(0,0,0,0.2);
 }
 .ordeList .ordeListItem .cardOrde{
@@ -398,4 +398,63 @@ main .topbar .profile img{
 }
 .novasOrdens table tr:hover td h4 span{
   color: var(--branco);
+}
+/* fim do bloco de recentes */
+/* bloco de responsividade */
+@media (max-width: 990px) {
+  body{
+    overflow: scroll;
+  }
+  .navigation{
+    left: -300px;
+  }
+  .navigation.show{
+    width: 300px;
+    left: 0;
+  }
+  main{
+    width: 100%;
+    left: 0;
+  }
+  main.show{
+    left: 300px;
+  }
+  .cards{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 760px){
+  .ordeList{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .ordeListItem{
+    overflow-x: auto;
+  }
+}
+@media (max-width: 480px){
+  .cards{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card h2{
+    font-size: 20px;
+  }
+  .profile{
+    min-width: 50px;
+  }
+  .navigation{
+    width: 100%;
+    left: -100%;
+    z-index: 2;
+  }
+  .navigation.show{
+    width: 100%;
+    left: 0;
+  }
+  .toggle{
+    z-index: 3;
+  }
+  main.show .toggle{
+    position: fixed;
+    color: var(--branco);
+  }
 }
