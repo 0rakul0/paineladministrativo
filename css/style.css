@@ -345,3 +345,57 @@ main .topbar .profile img{
   font-weight: 500;
 }
 /* fim do bloco de Ordem de Serviços Status */
+/* bloco de chat */
+.novasOrdens{
+  position: relative;
+  display: grid;
+  min-height: 400px;
+  background: var(--branco);
+  box-shadow: 0 7px 25px rgba(0,0,0,0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+.novasOrdens table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.novasOrdens table .imgBox{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.novasOrdens table tr td .imgBox img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.novasOrdens table tr{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.novasOrdens table tr td{
+  padding: 8px 10px;
+}
+.novasOrdens table tr td h4{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1em;
+}
+.novasOrdens table tr td h4 span{
+  font-size: 0.8em;
+  font-weight: 400;
+  color: var(--preto2);
+}
+.novasOrdens table tr:hover{
+  background: var(--azul2);
+  color: var(--branco);
+}
+.novasOrdens table tr:hover td h4 span{
+  color: var(--branco);
+}

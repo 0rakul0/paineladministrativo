@@ -15,7 +15,7 @@
         cards do main  ok
         animações ok
         status ok
-        chat 
+        recentes usuários ok
     telas
         -perfil
         -paneil de tarefas
@@ -23,5 +23,3 @@
         -customização
         -logar
         -sair
-
-       referencia https://youtu.be/nUUsUAPEjFc
