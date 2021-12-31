@@ -76,7 +76,7 @@
   </header>
   <!-- bloco de menu de cima-->
   <main>
-    <section class="topbar">
+    <header class="topbar">
       <div class="toggle">
         <ion-icon name="menu-outline"></ion-icon>
       </div>
@@ -89,10 +89,119 @@
       <div class="profile">
         <img src="img/profile1.jpg" alt="profile" />
       </div>
+    </header>
+    <!-- bloco de cards a baixo-->
+    <section class="cards">        
+      <div class="card">
+        <div>
+          <div class="numeros">1,807</div>
+          <div class="cardName">Views</div>
+        </div>
+        <div class="cardIcon">
+          <ion-icon name="eye-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <div class="numeros">1000</div>
+          <div class="cardName">Vendas</div>
+        </div>
+        <div class="cardIcon">
+          <ion-icon name="cart-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <div class="numeros">807</div>
+          <div class="cardName">Comentarios</div>
+        </div>
+        <div class="cardIcon">
+          <ion-icon name="chatbubble-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <div class="numeros">$7,887</div>
+          <div class="cardName">Saldo</div>
+        </div>
+        <div class="cardIcon">
+          <ion-icon name="cash-outline"></ion-icon>
+        </div>
+      </div>
+    </section>
+    <!--conteudo-->
+    <section class="ordeList">
+      <div class="ordeListItem">
+        <div class="cardOrde">
+          <h2>Serviços Recentes</h2>
+          <a href="" class="bnt"> Visualizar tudo</a>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <td>Nome</td>
+              <td>Preço</td>
+              <td>Pagamento</td>
+              <td>Status</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>kit Mouse teclado</td>
+              <td>R$228,00</td>
+              <td>Pendente</td>
+              <td><span class="status delivery">Parado</span></td>
+            </tr>
+            <tr>
+              <td>Funko</td>
+              <td>R$355,00</td>
+              <td>Pendente</td>
+              <td><span class="status pending">Parado</span></td>
+            </tr>
+            <tr>
+              <td>Mextel Led</td>
+              <td>R$25,00</td>
+              <td>Pago</td>
+              <td><span class="status delivered">Entregue</span></td>
+            </tr>
+            <tr>
+              <td>Hp notebook</td>
+              <td>R$3825,00</td>
+              <td>vencido</td>
+              <td><span class="status canceled">Retornado</span></td>
+            </tr>
+            <tr>
+              <td>Mextel Led</td>
+              <td>R$25,00</td>
+              <td>Pago</td>
+              <td><span class="status inprogress">A caminho</span></td>
+            </tr>
+            <tr>
+              <td>Impressora</td>
+              <td>R$800,00</td>
+              <td>Pago</td>
+              <td><span class="status inprogress">A caminho</span></td>
+            </tr>
+            <tr>
+              <td>Monitor Epson</td>
+              <td>R$1200,00</td>
+              <td>Pago</td>
+              <td><span class="status delivered">Entregue</span></td>
+            </tr>
+            <tr>
+              <td>Smartphone Moto g8</td>
+              <td>R$2000,00</td>
+              <td>Pago</td>
+              <td><span class="status inprogress">A caminho</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
   </main>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script src="js/app.js"></script>
 </body>
+
 </html>

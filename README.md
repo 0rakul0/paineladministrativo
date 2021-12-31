@@ -12,7 +12,10 @@
         menu interativo ok
         pesquisa ok
         foto de perfil ok
-
+        cards do main  ok
+        animações ok
+        status ok
+        chat 
     telas
         -perfil
         -paneil de tarefas
@@ -20,3 +23,5 @@
         -customização
         -logar
         -sair
+
+       referencia https://youtu.be/nUUsUAPEjFc
