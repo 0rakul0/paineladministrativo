@@ -23,5 +23,3 @@
         -customização
         -logar
         -sair
-
-       referencia https://youtu.be/nUUsUAPEjFc
