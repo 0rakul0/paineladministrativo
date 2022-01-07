@@ -16,10 +16,5 @@
         animações ok
         status ok
         recentes usuários ok
-    telas
-        -perfil
-        -paneil de tarefas
-        -chat
-        -customização
-        -logar
-        -sair
+        
+    " não tem outras paginas anexadas. o desenvolvi visando animações, menu, semântica e responsividade. "
